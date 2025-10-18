@@ -878,5 +878,5 @@ gg.toast("[ CANCEL ]")
 gg.sleep(1500)
 end
 
-  Add initial GameGuardian script
+  
  
