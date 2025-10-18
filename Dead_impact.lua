@@ -6,6 +6,8 @@ local H1,H2,H3 = OFF,OFF,OFF -- Toggle
 local H4,H5,H6 = OFF,OFF,OFF -- Toggle
 local H7,H8,H9 = OFF,OFF,OFF -- Toggle 
 local Title = "━─━─[ " .. APK .. " ]─━─━" -- Menu Title 
+local ti = gg.getTargetInfo()
+local APK = ti.label or "Unknown"
 
 -- @Ardies77 
 -- Define tables and flags for memory handling
