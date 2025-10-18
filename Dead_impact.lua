@@ -7,7 +7,6 @@ local H4,H5,H6 = OFF,OFF,OFF -- Toggle
 local H7,H8,H9 = OFF,OFF,OFF -- Toggle 
 local Title = "━─━─[ " .. APK .. " ]─━─━" -- Menu Title 
 
--- Telegram : @zdxriyd
 
 -- Define tables and flags for memory handling
 XxX = {}  -- Store memory range start addresses
