@@ -298,7 +298,7 @@ for i = 20, 100, 20 do
     gg.sleep(300)
     gg.toast(i .. "%")
 end
-local ti = gg.getTargetInfo()  -- Get target info (for 64-bit vs 32-bit detection)
+local ti = Info()  -- Get target info (for 64-bit vs 32-bit detection)
 local p_size = ti.x64 and 0x8 or 0x4  -- Determine pointer size
 
 -- Define path to save offsets
