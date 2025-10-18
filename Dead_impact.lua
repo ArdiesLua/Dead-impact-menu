@@ -762,7 +762,7 @@ function class()
     end
     O_O_u = gg.getResults(gg.getResultsCount())
     gg.clearResults()
-    if gg.getTargetInfo().x64 then
+    if gg.Info().x64 then
         O_O_o1 = 48
         O_O_o2 = 56
         O_O_vt = 32
@@ -800,7 +800,7 @@ function class()
     O_O_y = nil
     O_O_z = nil
     if #(O_O_p) == 0 and ERROR == 0 then
-        if gg.getTargetInfo().x64 then
+        if Info().x64 then
             O_O_o1 = 32
             O_O_o2 = 40
         else
